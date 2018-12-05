@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>My Shopping list</title>
+     </head>
+    
+    <body id="shop">
+        
+            
+         <h1 id="greeting"></h1>
+          
+            <form id="shoppingForm">
+                    <input id="itemName" onfocus="this.value=''"><!-clears the field when clicked->
+                    <select id="itemQuantity">
+                    <option value=""> </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    </select>    
+                <button type="button" onclick="addToList();startInt();" value="Add">Add to the list</button> 
+                <button id="deleteall" type="button" onclick="confirmation()" value="deleteAll">Clean the  list</button>
+            </form>
+     
+            <ol id="shoppingList">
+                
+            </ol> 
+          
+              <button id="delete" type="button" onclick="deleteItem()" value="delete">Delete checked items</button>
+             <button id="ready" type="button"value="ready" onclick="hideFields()">List is ready</button>
+             <button id="print" type="button" onclick="print();" value="Print">Print shopping list</button>
+            
+        <script src="script.js" type="text/javascript">
+  
+        </script>
+    </body>
+    
+</html>

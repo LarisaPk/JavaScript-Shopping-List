@@ -1,0 +1,112 @@
+
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+h1 {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #ED6565; 
+    border-radius: 12px;
+    color: #fff;
+    font-family: 'Bangers', cursive;
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.7);
+    letter-spacing: 3px;
+    font-size: 3em;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#shop {
+    margin: auto;
+    margin-top: 30px;
+    width: 60%;
+    border: 3px solid;
+    border-color:darkblue;
+    border-radius: 12px;
+    box-shadow: 5px 10px #888888;
+    padding: 30px;
+    
+}
+#shoppingForm {
+    margin: auto;
+    width: 100%;
+    border: 1px solid;
+    border-color:black;
+    padding: 10x;
+    border-radius: 12px;
+    
+}
+#shoppingList {
+    margin: auto;
+    width: 80%;
+    
+    border-color:black;
+    padding: 10px;
+    border-radius: 12px;
+   
+}
+#itemQuantity{
+    width: auto;
+    min-width: inherit;
+    margin-right: 10px;
+}
+#itemName{
+    width: 38%;
+    min-width: 200px;
+}
+
+
+li {
+    border: 1px solid;
+    margin-left:10%;
+    margin-right: auto;
+    margin-bottom: 3px;
+    width: 70%;
+    border-radius: 12px;
+    list-style-position:inside;
+    padding:10px;
+    align-content: space-between;
+}
+
+button {
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 25%;
+    min-height: 40px;
+    min-width: 165px;
+    background-color:darkslateblue;
+    border: none;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    flex-wrap: wrap;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+
+input {
+    width: 30%;
+    padding: 10px 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+input:focus {
+    border: 3px solid #555;
+}
+select{
+    width: 10%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin: 8px 0;
+    border: 3px solid #ccc;
+}
+select:focus{
+    border: 3px solid #555;
+}
